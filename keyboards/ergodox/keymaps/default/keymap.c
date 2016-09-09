@@ -15,9 +15,9 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
  * |--------+------+------+------+------+-------------|           |------+------+------+------+------+------+--------|
  * | Tab    |   Q  |   W  |   E  |   R  |   T  |  -   |           |  '"  |   Y  |   U  |   I  |   O  |   P  | BS     |
  * |--------+------+------+------+------+------|      |           |      |------+------+------+------+------+--------|
- * | Ctrl   |A / L2|   S  |   D  |   F  |   G  |------|           |------|   H  |   J  |   K  |   L  |; / L2| Enter  |
+ * | Ctrl   |   A  |   S  |   D  |   F  |   G  |------|           |------|   H  |   J  |   K  |   L  |; / L2| Enter  |
  * |--------+------+------+------+------+------|   =  |           |   \  |------+------+------+------+------+--------|
- * | LShift |Z / L1|   X  |   C  |   V  |   B  |      |           |      |   N  |   M  |   ,  |   .  | /    | RShift |
+ * | LShift |   Z  |   X  |   C  |   V  |   B  |      |           |      |   N  |   M  |   ,  |   .  | /    | RShift |
  * `--------+------+------+------+------+-------------'           `-------------+------+------+------+------+--------'
  *   |Grv/L1|  '"  | Alt  | Cmd  |AltShf|                                       | Left | Right| Down |  Up  | Meh  |
  *   `----------------------------------'                                       `----------------------------------'
@@ -35,8 +35,8 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
         // left hand
         KC_GRV,         KC_1,         KC_2,   KC_3,   KC_4,   KC_5,   KC_LBRC,
         KC_TAB,         KC_Q,         KC_W,   KC_E,   KC_R,   KC_T,   KC_MINS,
-        KC_LCTRL,       LT(MDIA,KC_A),KC_S,   KC_D,   KC_F,   KC_G,
-        KC_LSFT,        LT(SYMB,KC_Z),KC_X,   KC_C,   KC_V,   KC_B,   KC_EQL,
+        KC_LCTRL,       KC_A,         KC_S,   KC_D,   KC_F,   KC_G,
+        KC_LSFT,        KC_Z,         KC_X,   KC_C,   KC_V,   KC_B,   KC_EQL,
         LT(SYMB,KC_GRV),KC_QUOT,      KC_LALT,KC_LGUI,LALT(KC_LSFT),
                                               ALT_T(KC_APP),  KC_LGUI,
                                                               KC_HOME,
