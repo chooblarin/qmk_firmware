@@ -19,7 +19,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
  * |--------+------+------+------+------+------|   =  |           |   \  |------+------+------+------+------+--------|
  * | LShift |   Z  |   X  |   C  |   V  |   B  |      |           |      |   N  |   M  |   ,  |   .  | /    | RShift |
  * `--------+------+------+------+------+-------------'           `-------------+------+------+------+------+--------'
- *   |Grv/L1|   -  | Alt  | Cmd  |      |                                       |  [   |   ]  |   -  |  =   | Meh  |
+ *   |Grv/L1|   -  | Alt  | Cmd  |      |                                       |   -  |   =  |   [  |  ]   | Meh  |
  *   `----------------------------------'                                       `----------------------------------'
  *                                        ,-------------.       ,-------------.
  *                                        | Left | Right|       | Down |  Up  |
@@ -46,7 +46,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
              KC_QUOT,     KC_Y,   KC_U,   KC_I,   KC_O,    KC_P,            KC_BSPC,
                           KC_H,   KC_J,   KC_K,   KC_L,    LT(MDIA,KC_SCLN),KC_ENT,
 		     KC_BSLS,     KC_N,   KC_M,   KC_COMM,KC_DOT,  KC_SLSH,         KC_RSFT,
-                                  KC_LBRC,KC_RBRC,KC_MINS, KC_EQL,          MEH_T(KC_NO),
+                                  KC_MINS,KC_EQL, KC_LBRC, KC_RBRC,         MEH_T(KC_NO),
              KC_DOWN,        KC_UP,
              KC_PGUP,
              KC_PGDN,KC_FN1, KC_SPC
